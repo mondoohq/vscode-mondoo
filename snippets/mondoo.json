@@ -2,7 +2,7 @@
 	"mondooPolicy": {
 		"prefix": "mondoo:policy",
 		"body": [
-			"# Read more about the policy structure at https://docs.mondoo.io/platform/policies/overview",
+			"# Read more about the policy structure at https://mondoo.com/docs/platform/policies/overview",
 			"policies:",
 			"- uid: ${1:sshd}",
 			"  name: ${2:SSH Server Policy}",
@@ -54,7 +54,7 @@
 	"mondooPolicyAWS": {
 		"prefix": "mondoo:policy:aws",
 		"body": [
-			"# Read more about the policy structure at https://docs.mondoo.io/platform/policies/overview",
+			"# Read more about the policy structure at https://mondoo.com/docs/platform/policies/overview",
 			"policies:",
 			"- uid: ${1:aws-policy-uid}",
 			"  name: ${2:Policy Name}",
@@ -125,7 +125,7 @@
 	"mondooPolicyTerraform": {
 		"prefix": "mondoo:policy:terraform",
 		"body": [
-			"# Read more about the policy structure at https://docs.mondoo.io/platform/policies/overview",
+			"# Read more about the policy structure at https://mondoo.com/docs/platform/policies/overview",
 			"policies:",
 			"- uid: ${1:terraform-static-analysis}",
 			"  name: ${2:Policy Bundle Name}",
